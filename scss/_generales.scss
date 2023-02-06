@@ -1,0 +1,25 @@
+/*--Generales--*/
+body{ 
+    background-image: linear-gradient(to bottom,#1B2021, #227c39fd ,#02661bfd);
+    font-family:'Montserrat', sans-serif;
+}
+h1, h2{
+    color: $color-txt;
+}
+footer p{
+    color: $color-txt;
+}
+/*--Sobre Mi--*/
+.conten{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background: rgba(142, 230, 134, 0.452);
+
+    h2, p, iframe {
+        width: 75%;
+    }
+}
+

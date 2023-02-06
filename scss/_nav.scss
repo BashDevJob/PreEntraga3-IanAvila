@@ -1,0 +1,13 @@
+/*--Nav--*/
+.nav-link{
+    color: $color-txt;
+}
+.navbar-nav .nav-link.active{
+    color: #60f180;
+}
+.navbar-brand{
+    color: $color-txt;
+}
+.navbar-toggler{
+    background-color: #21bb48fd;
+}

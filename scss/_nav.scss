@@ -3,11 +3,11 @@
     color: $color-txt;
 }
 .navbar-nav .nav-link.active{
-    color: #60f180;
+    color: $color-activo;
 }
 .navbar-brand{
     color: $color-txt;
 }
 .navbar-toggler{
-    background-color: #21bb48fd;
+    background-color: $color-btnnav;
 }

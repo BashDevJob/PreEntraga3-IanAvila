@@ -1,9 +1,7 @@
 
 /*cards*/
 .padre-cards{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex-colum-center;
     gap: 40px;
 }
 .card img{

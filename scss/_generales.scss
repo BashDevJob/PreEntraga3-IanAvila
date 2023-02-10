@@ -11,9 +11,7 @@ footer p{
 }
 /*--Sobre Mi--*/
 .conten{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    @include flex-colum-center;
     align-items: center;
     padding: 1rem;
     background: rgba(142, 230, 134, 0.452);

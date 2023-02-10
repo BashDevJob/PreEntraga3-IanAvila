@@ -4,9 +4,7 @@
 }
 /*grilla*/
 #grilla-tec{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex-colum-center;
     gap: 40px;
 }
 #html {
